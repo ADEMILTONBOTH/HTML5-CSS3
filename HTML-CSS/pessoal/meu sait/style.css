@@ -37,6 +37,7 @@
 body {
     background-color: var(--cor03);
     font-family: var(--fonte-padrão);
+    background-image: url(BOTH\ TKD-1.jpg);
 }
 
 a.externo::after {
