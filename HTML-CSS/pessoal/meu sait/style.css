@@ -42,6 +42,10 @@ body {
     
 }
 
+body.gub {
+    background-image: none;
+}
+
 a.externo::after {
     content: '\00A0\1F517';
 
@@ -225,4 +229,48 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    border: 5px solid red;
+}
+
+tr.linha {
+    background-color: gray;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+td.branca {
+    background-color: white;
+}
+td.cinza {
+    background-color:grey;
+}
+td.amarelo {
+    background-color: yellow;
+}
+td.laranja {
+    background-color: orange;
+}
+td.verde {
+    background-color: green;
+}
+td.roxo {
+    background-color: purple;
+}
+td.azul {
+    background-color: blue;
+}
+td.marrom {
+    background-color: brown;
+}
+td.vermelho {
+    background-color:red ;
+} td.vp {
+    background-color: red black;
 }
