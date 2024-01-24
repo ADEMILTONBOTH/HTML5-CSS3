@@ -231,7 +231,8 @@ footer a:hover {
     color: var(--cor1);
 }
 
-table{
+ body >table {
+    margin: relative;
     width: 400px;
     border-collapse: collapse;
     border: 5px solid red;
@@ -241,7 +242,7 @@ tr.linha {
     background-color: gray;
 }
 
-td {
+th, td {
     border: 1px solid black;
     padding: 8px;
 }
@@ -272,5 +273,5 @@ td.marrom {
 td.vermelho {
     background-color:red ;
 } td.vp {
-    background-color: red black;
+    background-color: red, black;
 }
